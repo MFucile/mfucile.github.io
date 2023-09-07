@@ -1,0 +1,106 @@
+body{
+    background-color:#7D869C ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.logo
+{
+  height: 50px;
+  position: fixed;
+  top: 4px;
+  right: 4px;
+  transition: transform 0.3s ease;
+  z-index: 1;
+}
+.logo:hover
+{
+  transform: rotate(360deg);
+}
+
+#window{
+    border-radius: 16px;
+    background: #586994;
+    box-shadow:  -34px 34px 68px #435070,
+                  34px -34px 68px #6d82b8;
+    font-family: 'Handjet', cursive;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    
+}
+
+#window h1 {
+    font-size: 40px;
+    margin: 0; /* Rimuove i margini intorno all'elemento h1 */
+    display: inline-block; /* Imposta h1 come elemento inline */
+}
+
+#wrapper{
+    display: flex;
+    text-align: center;
+}
+
+#playButtonContainer {
+    display:none;
+    position: absolute; /* Use absolute positioning */
+    top: 55.8%; /* Center the container vertically */
+    left: 50%; /* Center the container horizontally */
+    transform: translate(-50%, -50%); /* Adjust for centering */
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    height: 500px;
+    width: 500px;
+    backdrop-filter: blur(10px);
+    
+
+}
+
+.bn632-hover { 
+
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn20 {
+    background-image: linear-gradient(
+      to right,
+      #667eea,
+      #764ba2,
+      #6b8dd6,
+      #8e37d7
+    );
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+  }
+
+ 
